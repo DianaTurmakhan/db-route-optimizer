@@ -21,9 +21,9 @@ Ensure you have the following installed:
   - `requests`
 
 You can install the necessary libraries using the following command:
+
 ```bash
 pip install psycopg2 pandas folium requests
-
 
 The script connects to a local PostgreSQL database using the following connection parameters:
 
