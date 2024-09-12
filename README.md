@@ -43,7 +43,3 @@ For route optimization, the project uses the OSRM (Open Source Routing Machine) 
 ```bash
 http://router.project-osrm.org/route/v1/driving
 ```
-
-## Running Notebook
-1.Ensure your PostgreSQL database is running and populated with the necessary tables.
-2.Open and execute the notebook cells to load the data, perform analysis, and calculate routes.
