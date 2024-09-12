@@ -22,16 +22,17 @@ Ensure you have the following installed:
 
 
 The script connects to a local PostgreSQL database using the following connection parameters:
+  - Host: `localhost`
+  - Port: `5432`
+  - Database: `data`
+  - User: `###`
+  - Password: `###`
+    
 
-Host: localhost
-Port: 5432
-Database: data
-User: ####
-Password: ####
 
 Tables fetched from the database include:
 
--cars
+- cars
 - drivers
 - spatial_ref_sys
 - tc_positions_recent
@@ -41,6 +42,7 @@ Tables fetched from the database include:
 For route optimization, the project uses the OSRM (Open Source Routing Machine) API to calculate optimized routes between a start and end location (latitude/longitude).
 ```bash
 http://router.project-osrm.org/route/v1/driving
+```
 
 ## Running Notebook
 1.Ensure your PostgreSQL database is running and populated with the necessary tables.
